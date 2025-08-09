@@ -1,5 +1,5 @@
-let nome = prompt("Digite o nome do herói:");
-let xp = Number(prompt("Digite a quantidade de XP do herói:"));
+let nome = ("Digite o nome do herói:");
+let xp = parseInt("Digite a quantidade de XP do herói:");
 
 // Classificação de nível
 let nivel;
@@ -23,5 +23,5 @@ if (xp < 1000) {
 }
 
 // Saída final
-console.log(`O Herói de nome: ${nome} está no nível de: ${nivel}`);
+console.log(`O Herói de nome **${nome}** está no nível de **${nivel}**`);
 
